@@ -31,7 +31,7 @@ const productURL = document.querySelector('#productURL');
 //Function to add products
 
 const addProducts = (furniture, id) => {
-    let html = `<div data-id="${id}" class="col-sm-3"><div class="card p-1">
+    let html = `<div data-id="${id}" class="col-sm-6 col-md-3 mb-3"><div class="card p-1">
         <img class="card-img-top animate__animated animate__fadeIn" src="${furniture.image}" alt="">
         <div class="card-body">
             <h5 class="card-title">${furniture.name}</h5>
